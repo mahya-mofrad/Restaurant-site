@@ -1,0 +1,40 @@
+section .box {
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+  background: #1a1814;
+}
+
+section .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #cda45e;
+}
+
+section .box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section .box p {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+section .box:hover {
+  background: #cda45e;
+  padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+section .box:hover span,
+section .box:hover h4,
+section .box:hover p {
+  color: #050505;
+}

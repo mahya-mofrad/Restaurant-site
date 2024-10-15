@@ -1,0 +1,78 @@
+.container {
+  padding-top: 230px !important;
+}
+
+@media (min-height: 992px) {
+  .container {
+    padding-top: 430px !important;
+  }
+}
+
+.container h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.container h1 span {
+  color: #cda45e;
+}
+
+.container h2 {
+  color: #eee;
+  margin-bottom: 10px 0 0 0;
+  font-size: 22px;
+}
+
+.hero .btns {
+  margin-top: 30px;
+}
+
+.hero .btnMenu,
+.hero .btnBook {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: white;
+  border: 2px solid #cda45e;
+}
+
+.hero .btnMenu:hover,
+.hero .btnBook:hover {
+  background: #cda45e;
+  color: #fff;
+}
+
+.btnBook {
+  margin-left: 15px;
+}
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 500px) {
+  .hero .container .btnMenu,
+  .hero .container .btnBook {
+    display: block;
+    margin: 20px 0 0 0;
+  }
+  .hero .container .btns {
+    max-width: max-content;
+  }
+}

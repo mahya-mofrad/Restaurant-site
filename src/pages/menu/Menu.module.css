@@ -1,0 +1,33 @@
+.filters {
+  cursor: pointer;
+}
+.filters:hover {
+  color: #d9ba85;
+}
+.filterActive {
+  color: #cda45e;
+}
+.menuImg {
+  object-fit: "cover";
+  display: "inline-block";
+  cursor: "pointer";
+}
+.menuItemName {
+  color: #fff;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+.menuItemName:hover {
+  color: #cda45e;
+}
+
+.menuItemDescription {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+@media (max-width: 991px) {
+  .menuImg {
+    width: 100%;
+  }
+}

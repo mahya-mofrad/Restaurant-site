@@ -1,0 +1,52 @@
+.back {
+  background-image: url(../../../assets/img/events-bg.jpg);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  width: 100%;
+  /* height: 100vh; */
+  background-size: cover;
+  position: relative;
+}
+
+.eventImg {
+  max-width: 100%;
+  height: auto;
+}
+.eventText {
+  color: #fff;
+}
+.eventText .title {
+  font-weight: 600;
+  font-size: 26px;
+  color: #cda45e;
+}
+.eventText .customCard {
+  background-color: transparent;
+  color: #fff;
+}
+.eventText .price {
+  font-size: 26px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #cda45e;
+  display: inline-block;
+}
+
+.eventText ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.eventText ul li {
+  padding-bottom: 10px;
+}
+
+/* .eventText ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #cda45e;
+} */
